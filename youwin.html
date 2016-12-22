@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>menu</title>
+</head>
+<body>
+    <audio id="sonvictoire">
+        <source src="son_game/victoire1.mp3" type="audio/mp3"/>
+        <source src="son_game/victoire1.wav" type="audio/wav"/>
+    </audio>
+
+    <script type="text/javascript">
+        var sonYouWin = document.getElementById("sonvictoire");
+        sonYouWin.play();
+    </script>
+<div id="menu">
+    <div id="texte">
+    <img src="menu_bomberman/Sans-titre-1.png">
+    <figure id="image"><img  src="menu_bomberman/sticker-autocollant-enfant-oeuf-yoshi.png" ></figure>
+    <figure id="yoshi"><img src="menu_bomberman/Yoshi.png"</figure>
+    </div>
+    <p id="gagne">Vous avez gagné !</p>
+    <a href="bomberman.html" id="rejouer">Rejouer</a>
+    <p id="copy"> Copyright A.F.E Corporation</p>
+</div>    
+</body>
+</html>

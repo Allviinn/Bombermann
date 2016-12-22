@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>menu</title>
+</head>
+<body>
+    <audio id="sondefaite">
+        <source src="son_game/defaite.mp3" type="audio/mp3"/>
+        <source src="son_game/defaite.wav" type="audio/wav"/>
+    </audio>
+    <script type="text/javascript">
+        var sonGameOver = document.getElementById("sondefaite");
+            sonGameOver.play();
+    </script>
+<div id="menu">
+    <div id="texte">
+    <img src="menu_bomberman/Sans-titre-1.png">
+    <figure id="image"><img  src="menu_bomberman/sticker-autocollant-enfant-oeuf-yoshi.png" ></figure>
+    <figure id="yoshi"><img src="menu_bomberman/Yoshi.png"</figure>
+    </div>
+    <p id="perdu">GAME OVER</p>
+    <a href="bomberman.html" id="rejouer">Rejouer</a>
+    <p id="copy"> Copyright A.F.E Corporation</p>
+</div>    
+</body>
+</html>

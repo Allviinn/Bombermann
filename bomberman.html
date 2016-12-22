@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bomberman.css">
+    <title>bomberman</title>
+</head>
+<body onload="init()">
+
+
+
+	<audio id="sonfusil">
+		<source src="son_game/fusil.mp3" type="audio/mp3"/>
+		<source src="son_game/fusil.wav" type="audio/wav"/>
+	</audio>
+
+	<audio id="headshot">
+		<source src="son_game/headshot.mp3" type="audio/mp3"/>
+		<source src="son_game/headshot.wav" type="audio/wav"/>
+	</audio>
+	
+
+   
+        <div id="div-parent">
+        <div id="bombe"></div>
+    </div>
+               
+<script src="deplacement.js"></script>
+<script src="explosion.js"></script>
+<script type="text/javascript" src="objet.js"></script>
+<script type="text/javascript" src="colision.js"></script>
+<script type="text/javascript" src="testrandom.js"></script>
+
+</body>
+</html>
